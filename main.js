@@ -154,10 +154,9 @@ function wrapperOnclick(){
     },timeOut*1000)
 }
 
-function play() {
-    var audio = document.getElementById("audio");
-    audio.play();
-  }
+var audio = document.getElementById("audio");
+audio.play();
+ 
 
 
 
