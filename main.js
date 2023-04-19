@@ -154,10 +154,9 @@ function wrapperOnclick(){
     },timeOut*1000)
 }
 
-var audio = new Audio('./asset1/y2mate (mp3cut.net).mp3');
-audio.play();
-    // var audio = document.getElementById("audio");
-    // audio.play();
+
+     var audio = document.getElementById("audio");
+     audio.play();
   
 
 
